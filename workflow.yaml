@@ -39,7 +39,7 @@ spec:
       name: Onboarding a New GitHub Repository
       action: trigger:harness-custom-pipeline
       input:
-        url: "https://qa.harness.io/ng/account/zEaak-FLS425IEO7OLzMUg/module/idp-admin/orgs/default/projects/testdemo/pipelines/github_repo_onb_demo/pipeline-studio?storeType=INLINE"
+        url: "https://qa.harness.io/ng/account/zEaak-FLS425IEO7OLzMUg/module/idp-admin/orgs/default/projects/testdemo/pipelines/github_repo_onb_demo/"
         inputset:
           github_org: ${{ parameters.github_org_name }}
           github_repo: ${{ parameters.github_repo_name }}
